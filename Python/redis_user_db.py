@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # ------------------------------------------------------------------
-# Tool to add or delete a user from redis database for Auto-IT server to user
-#
-# Copyright (c) 2016 by cisco Systems, Inc.
-# All rights reserved.
+# Tool to add or delete a user from redis database for server to user
 # ------------------------------------------------------------------
 
 import os
@@ -84,7 +81,7 @@ def parse_args():
 
 
 if __name__ == '__main__':
-    prefix = "usp-auto-it:"
+    prefix = "test:"
     User = User()
     args = parse_args()
 
