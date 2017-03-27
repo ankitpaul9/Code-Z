@@ -59,7 +59,7 @@ def parse_args():
     "Parse command line arguments"
 
     desc = """
-    This tool Add's or Delete's a user from the redis database for Auto-IT server to use.
+    This tool Add's or Delete's a user from the redis database for the server to use.
     """
     parser = argparse.ArgumentParser(
         description=desc,
