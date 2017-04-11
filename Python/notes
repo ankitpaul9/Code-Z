@@ -1,0 +1,18 @@
+find / -type f -name "*.conf"
+
+find dir/ -type f -exec grep -H 'string' {} +
+
+rm -rf name
+
+chmod ugo+rw
+
+netstat -lnpt | grep 22
+
+iptables -nvL INPUT
+
+scp -6 osis@\[2001:db8:0:1\]
+
+vim ~/.vimrc
+set nocompatible
+
+ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no regr@<ip> "bash -ls" << ENDSSH
