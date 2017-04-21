@@ -120,6 +120,6 @@ def get_resource():
     return jsonify({'data': 'Hello!'})
 
 if __name__ == '__main__':
-    prefix = "usp-auto-it:"
+    prefix = "user:"
     User = User()
     app.run(debug=True)
